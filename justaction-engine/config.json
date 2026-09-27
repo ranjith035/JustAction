@@ -1,0 +1,18 @@
+{
+  "architectures": [
+    "JustActionModel"
+  ],
+  "auto_map": {
+    "AutoConfig": "model.JustActionConfig",
+    "AutoModel": "model.JustActionModel"
+  },
+  "hidden_size": 512,
+  "max_choices": 16,
+  "max_score_levels": 10,
+  "model_type": "justaction_engine",
+  "num_heads": 8,
+  "num_layers": 8,
+  "torch_dtype": "float32",
+  "transformers_version": "4.48.2",
+  "vocab_size": 32000
+}
